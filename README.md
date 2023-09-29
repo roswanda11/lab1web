@@ -118,23 +118,23 @@
 
 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
 
-           Tidak ada. HTML berjalan seperti biasa.
+Tidak ada. HTML berjalan seperti biasa.
 
 2. Apa perbedaan dari tag ```<p>``` dengan tag ```<br>```, berikan penjelasannya!
    
-            ```<br>``` digunakan untuk menggerakan teks ke barisan baru sedangkan ```<p>``` digunakan untuk membuat paragraf baru, ```<br>``` bisa digunakan untuk menambah barisan baru kedalam sebuah teks. 
+Jadi perbedaan yang mencolok dari kedua tag ini adalah pada jarak yang terbentuk. Kesimpulannya jika hanya ingin membuat baris baru tanpa jarak gunakan tag ```<br/>``` , tapi jika ingin membuat baris baru namun memiliki jarak dengan paragraf diatasnya maka bungkuslah paragraf baru tersebut dengan sepasang tag ```<p>``` dan ```</p>```
 
 3. Apa perbedaan atribut ```title``` dan ```alt``` pada tag <img>, berikan penjelasannya!
    
-            ```alt``` adalah untuk menyediakan tag alt gambar untuk menggambarkan gambar ke crawler mesin pencari dan pembaca layar untuk aksesibilitas web yang lebih baik. ```title``` adalah untuk memberikan penjelasan tentang tag alt gambar dan URL gambar dalam atribut ```src```. 
+```alt``` adalah untuk menyediakan tag alt gambar untuk menggambarkan gambar ke crawler mesin pencari dan pembaca layar untuk aksesibilitas web yang lebih baik. ```title``` adalah untuk memberikan penjelasan tentang tag alt gambar dan URL gambar dalam atribut ```src```. 
 
 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
-   
-            Menurut saya lebih baik satu attribut saja agar aspek ratio gambar asli terjaga. Hanya dengan menggunakan ```width``` foto akan menjadi lebih presisi tetapi ```height``` bisa mengatur foto semaunya 
+
+Menurut saya lebih baik satu attribut saja agar aspek ratio gambar asli terjaga. Hanya dengan menggunakan ```width``` foto akan menjadi lebih presisi tetapi ```height``` bisa mengatur foto semaunya 
 
 5. Pada ```link``` tambahkan atribut ```target``` dengan nilai atribut bervariasi ```( _blank, _self, _top,_parent )```, apa yang terjadi pada masing-masing nilai antribut tersebut?
     
-            ```Nilai _blank``` akan membuka link/halaman di tab baru.
-            ```Nilai _self``` akan membuka link/halaman di tab saat ini.
-            ```Nilai _top``` membuka link/halaman dan membatalkan semua frame.
-            ```Nilai _parent``` membuka link/halaman pada parent frame.
+```Nilai _blank``` akan membuka link/halaman di tab baru.
+```Nilai _self``` akan membuka link/halaman di tab saat ini.
+```Nilai _top``` membuka link/halaman dan membatalkan semua frame.
+```Nilai _parent``` membuka link/halaman pada parent frame.
