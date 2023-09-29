@@ -134,7 +134,7 @@ Menurut saya lebih baik satu attribut saja agar aspek ratio gambar asli terjaga.
 
 5. Pada ```link``` tambahkan atribut ```target``` dengan nilai atribut bervariasi ```( _blank, _self, _top,_parent )```, apa yang terjadi pada masing-masing nilai antribut tersebut?
     
-```Nilai _blank``` akan membuka link/halaman di tab baru.
-```Nilai _self``` akan membuka link/halaman di tab saat ini.
-```Nilai _top``` membuka link/halaman dan membatalkan semua frame.
-```Nilai _parent``` membuka link/halaman pada parent frame.
+- ```Nilai _blank``` akan membuka link/halaman di tab baru.
+- ```Nilai _self``` akan membuka link/halaman di tab saat ini.
+- ```Nilai _top``` membuka link/halaman dan membatalkan semua frame.
+- ```Nilai _parent``` membuka link/halaman pada parent frame.
