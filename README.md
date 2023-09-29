@@ -116,20 +116,25 @@
 
 # Jawab Pertanyaan Berikut
 
-### 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
-Tidak ada. HTML berjalan seperti biasa.
+1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
 
-### 2. Apa perbedaan dari tag ```<p>``` dengan tag ```<br>```, berikan penjelasannya!
-```<br>``` digunakan untuk menggerakan teks ke barisan baru sedangkan ```<p>``` digunakan untuk membuat paragraf baru, ```<br>``` bisa digunakan untuk menambah barisan baru kedalam sebuah teks. 
+           Tidak ada. HTML berjalan seperti biasa.
 
-### 3. Apa perbedaan atribut ```title``` dan ```alt``` pada tag <img>, berikan penjelasannya!
-```alt``` adalah untuk menyediakan tag alt gambar untuk menggambarkan gambar ke crawler mesin pencari dan pembaca layar untuk aksesibilitas web yang lebih baik. ```title``` adalah untuk memberikan penjelasan tentang tag alt gambar dan URL gambar dalam atribut ```src```. 
+2. Apa perbedaan dari tag ```<p>``` dengan tag ```<br>```, berikan penjelasannya!
+   
+            ```<br>``` digunakan untuk menggerakan teks ke barisan baru sedangkan ```<p>``` digunakan untuk membuat paragraf baru, ```<br>``` bisa digunakan untuk menambah barisan baru kedalam sebuah teks. 
 
-### 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
-Hanya dengan menggunakan ```width``` foto akan menjadi lebih presisi tetapi ```height``` bisa mengatur foto semaunya 
+3. Apa perbedaan atribut ```title``` dan ```alt``` pada tag <img>, berikan penjelasannya!
+   
+            ```alt``` adalah untuk menyediakan tag alt gambar untuk menggambarkan gambar ke crawler mesin pencari dan pembaca layar untuk aksesibilitas web yang lebih baik. ```title``` adalah untuk memberikan penjelasan tentang tag alt gambar dan URL gambar dalam atribut ```src```. 
 
-### 5. Pada ```link``` tambahkan atribut ```target``` dengan nilai atribut bervariasi ```( _blank, _self, _top,_parent )```, apa yang terjadi pada masing-masing nilai antribut tersebut?
-- ```_blank```: Membuka dokumen yang dituju di jendela atau tab baru.
-- ```_self``` : Membuka dokumen yang dituju di jendela atau frame yang sama dengan elemen yang diklik. Ini adalah nilai default jika atribut target tidak ditentukan.
-- ```_top``` : Membuka dokumen yang dituju di jendela penuh, menggantikan semua frame, termasuk frame luar. Jika elemen tersebut tidak ada dalam frame, perilakunya sama seperti _self.
-- ```_parent``` : Membuka dokumen yang dituju di frame parent dari elemen yang diklik. Jika elemen tersebut tidak ada dalam frame, perilakunya sama seperti _self.
+4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+   
+            Menurut saya lebih baik satu attribut saja agar aspek ratio gambar asli terjaga. Hanya dengan menggunakan ```width``` foto akan menjadi lebih presisi tetapi ```height``` bisa mengatur foto semaunya 
+
+5. Pada ```link``` tambahkan atribut ```target``` dengan nilai atribut bervariasi ```( _blank, _self, _top,_parent )```, apa yang terjadi pada masing-masing nilai antribut tersebut?
+    
+            ```Nilai _blank``` akan membuka link/halaman di tab baru.
+            ```Nilai _self``` akan membuka link/halaman di tab saat ini.
+            ```Nilai _top``` membuka link/halaman dan membatalkan semua frame.
+            ```Nilai _parent``` membuka link/halaman pada parent frame.
